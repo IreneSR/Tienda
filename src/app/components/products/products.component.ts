@@ -51,6 +51,12 @@ export class ProductsComponent {
       name: "The Last of Us Part II",
       price: 1799,
       image: "./assets/image/thelast.jpg"
+    },
+    {
+      id: "7",
+      name: "The Last of Us Part I",
+      price: 2000,
+      image: "./assets/image/thelastt.jpg"
     }
   ];
   onCar(product: Product) {
