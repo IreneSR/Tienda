@@ -1,0 +1,10 @@
+<!-- <p>products works!</p> -->
+<p>
+    Numero de productos en el carrito {{myWishList.length}}
+</p>
+<p>
+    Tu total a pagar es {{myDesembolse}}
+</p>
+<div class="product-grid">
+    <app-product (addedProduct)="onCar($event)" [product]="product" *ngFor="let product of products"> </app-product>
+</div>

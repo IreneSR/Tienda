@@ -1,0 +1,7 @@
+<!-- <p>product works!</p> -->
+<h1>{{product.name}}</h1>
+<h1>{{product.name | vowels}}</h1>
+<app-img [img]="product.image"></app-img>
+<h1>{{product.price}}</h1>
+<h1 appAlertPrice>{{product.price | iva | currency}}</h1>
+<button (click)="addToCar()">Agregar al carrito</button>

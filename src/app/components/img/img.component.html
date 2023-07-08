@@ -1,0 +1,5 @@
+<img [src]="img" (load)="imgLoad()" (error)="imgError()" alt="" *ngIf="img; else elseImg">
+
+<ng-template #elseImg>
+    <p>No hay imagen no disponible </p>
+</ng-template>
