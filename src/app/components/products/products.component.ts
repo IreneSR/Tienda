@@ -57,6 +57,12 @@ export class ProductsComponent {
       name: "The Last of Us Part I Remake II.0 Pro",
       price: 2000,
       image: "./assets/image/thelastt.jpg"
+    },
+    {
+      id: "8",
+      name: "Cyberpunk",
+      price: 0,
+      image: "./assets/image/thelastt.jpg"
     }
   ];
   onCar(product: Product) {
