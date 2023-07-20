@@ -54,7 +54,7 @@ export class ProductsComponent {
     },
     {
       id: "7",
-      name: "The Last of Us Part I",
+      name: "The Last of Us Part I Remake II.0 Pro",
       price: 2000,
       image: "./assets/image/thelastt.jpg"
     }
