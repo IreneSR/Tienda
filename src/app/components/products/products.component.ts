@@ -64,6 +64,7 @@ export class ProductsComponent {
       price: 0,
       image: "./assets/image/thelastt.jpg"
     }
+    
   ];
   onCar(product: Product) {
     this.storeService.addToCart(product);
