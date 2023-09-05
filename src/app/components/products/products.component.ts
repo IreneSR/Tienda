@@ -63,7 +63,7 @@ export class ProductsComponent {
       name: "Rosita Fresita",
       price: 200,
       image: "./assets/image/thelastt.jpg"
-    }
+    } 
 
   ];
   onCar(product: Product) {
